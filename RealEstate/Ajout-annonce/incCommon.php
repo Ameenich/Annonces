@@ -45,8 +45,7 @@
 		$arrAccessTables = array();
 		$arrTables = array(
 			/* 'table_name' => ['table caption', 'homepage description', 'icon', 'table group name'] */   
-			'houses' => array('Propriètés', '', 'resources/table_icons/building_add.png', 'None'),
-			'tenants' => array('Locataires', '', 'resources/table_icons/group_add.png', 'None')
+			'houses' => array('Propriètés', '', 'resources/table_icons/building_add.png', 'None')
 				);
 		if($skip_authentication || getLoggedAdmin()) return $arrTables;
 

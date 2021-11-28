@@ -288,7 +288,7 @@ function houses_form($selected_id = '', $AllowUpdate = 1, $AllowInsert = 1, $All
 	}
 
 	// process form title
-	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'House details', $templateCode);
+	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'Détails Propriètés', $templateCode);
 	$templateCode = str_replace('<%%RND1%%>', $rnd1, $templateCode);
 	$templateCode = str_replace('<%%EMBEDDED%%>', ($_REQUEST['Embedded'] ? 'Embedded=1' : ''), $templateCode);
 	// process buttons

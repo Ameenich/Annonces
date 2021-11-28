@@ -83,7 +83,7 @@
 	$Translation['*'] = '*';
 	$Translation['today'] = 'Today';
 	$Translation['Hold CTRL key to select multiple items from the above list.'] = 'Hold CTRL key to select multiple items from the above list.';
-	$Translation['Save New'] = 'Save New';
+	$Translation['Save New'] = 'Ajouter';
 	$Translation['Save As Copy'] = 'Save As Copy';
 	$Translation['Deselect'] = 'Annuler';
 	$Translation['Add New'] = 'Ajouter Nouveau';
@@ -96,7 +96,7 @@
 	$Translation['Find It'] = 'Cherchez';
 	$Translation['Previous'] = 'Précedent';
 	$Translation['Next'] = 'Prochain';
-	$Translation['Back'] = 'Retourener';
+	$Translation['Back'] = 'Retourner';
 
 	// lib.php
 	$Translation['select a table'] = "Allez à ...";

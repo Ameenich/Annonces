@@ -73,11 +73,7 @@
 	function tenants_before_insert(&$data, $memberInfo, &$args){
 		$memberid1=($memberInfo['username']);
 		$getrecordcount=sqlValue("SELECT COUNT(*) FROM membership_userrecords WHERE tableName='tenants' AND memberID='$memberid1'");
-		if ($getrecordcount>=2) {
-			$_SESSION['custom_err_msg']="<b>Sorry!! Your new record was not saved.You are limited to 2 records in trial version.</b>";
-			return FALSE;}
-		else{
-			return TRUE;}
+		return TRUE;
 	}
 
 	function tenants_after_insert($data, $memberInfo, &$args){

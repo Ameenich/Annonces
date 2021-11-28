@@ -104,9 +104,6 @@
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="tenants_view.php"><i class="fa fa-users fa-fw"></i>Mes Locataires</a>
-                        </li>
-                        <li>
                             <a href="membership_profile.php"><i class="fa fa-user fa-fw"></i>Mon Profil</a>
                         </li>
                         

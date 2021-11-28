@@ -58,11 +58,11 @@ function tenants_insert(){
 		echo '<a href="" onclick="history.go(-1); return false;">'.$Translation['< back'].'</a></div>';
 		exit;
 	}
-	if($data['house']== ''){
+	/*if($data['house']== ''){
 		echo StyleSheet() . "\n\n<div class=\"alert alert-danger\">" . $Translation['error:'] . " 'House': " . $Translation['field not null'] . '<br><br>';
 		echo '<a href="" onclick="history.go(-1); return false;">'.$Translation['< back'].'</a></div>';
 		exit;
-	}
+	}*/
 	if($data['status']== ''){
 		echo StyleSheet() . "\n\n<div class=\"alert alert-danger\">" . $Translation['error:'] . " 'Status': " . $Translation['field not null'] . '<br><br>';
 		echo '<a href="" onclick="history.go(-1); return false;">'.$Translation['< back'].'</a></div>';
