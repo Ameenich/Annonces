@@ -46,7 +46,7 @@
 							<button name="signIn" type="submit" id="submit" value="signIn" class="btn btn-primary btn-lg btn-block"><?php echo $Translation['sign in']; ?></button>
 				</div>	
 				<div class="col-sm-6">
-							<button name="BackWebsite" id="back" value="BackWebsite" class="btn btn-link btn-lg btn-block" onclick="location.href='http://localhost/RealEstate'" type="button">Allez au Site Web</button>
+							<button name="BackWebsite" id="back" value="BackWebsite" class="btn btn-link btn-lg btn-block" onclick="location.href='http://localhost/Annonces'" type="button">Allez au Site Web</button>
 				</div>
 						</div>
 					</div>
