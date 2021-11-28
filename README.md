@@ -28,4 +28,4 @@ Visual Studio Code et Wamp Server ont été utilisé afin de développer ce site
 4. Créer une base données sous localhost/phpmyadmin ayant le même nom de la base de données du projet
 5. Mettre dans le navigateur localhost/Annonces-immobilieres
 6. De cette façon, le projet doit marcher 
-7. Afin de s'authentifier dans la partie ajouter annonce, utiliser le username: **sali** et le de passe **sali123**
+7. Afin de s'authentifier dans la partie ajouter annonce, utiliser le username: **sali** et le mot de passe **sali123**
