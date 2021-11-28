@@ -196,25 +196,7 @@
 
 		<div class="col-md-6">
 
-			<!-- group and IP address -->
-			<div class="panel panel-info">
-				<div class="panel-body">
-					<div class="form-group">
-						<label><?php echo $Translation['Your IP address']; ?></label>
-						<div class="form-control-static"><?php echo $mi['IP']; ?></div>
-					</div>
-				</div>
-			</div>
-
-			<!-- group and IP address -->
-			<div class="panel panel-info">
-				<div class="panel-body">
-					<div class="form-group">
-						<label><?php echo $Translation['group']; ?></label>
-						<div class="form-control-static"><?php echo $mi['group']; ?></div>
-					</div>
-				</div>
-			</div>
+			
 
 			<?php if($mi['username'] != $adminConfig['adminUsername']){ ?>
 				<!-- change password -->

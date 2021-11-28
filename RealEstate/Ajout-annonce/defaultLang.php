@@ -42,7 +42,7 @@
 	$Translation['save as csv'] = "Download as csv file (comma-separated values)";
 	$Translation['edit filters'] = "Edit filters";
 	$Translation['clear filters'] = "Clear filters";
-	$Translation['order by'] = 'Order by';
+	$Translation['order by'] = 'Filtrer par';
 	$Translation['go to page'] = 'Go to page:';
 	$Translation['none'] = 'None';
 	$Translation['Select all records'] = 'Select all records';
@@ -193,9 +193,9 @@
 	$Translation['No records found']='No records found';
 	$Translation['You can add children records after saving the main record first']='You can add child records after saving the main record first';
 
-	$Translation['ascending'] = 'Ascending';
-	$Translation['descending'] = 'Descending';
-	$Translation['then by'] = 'Then by';
+	$Translation['ascending'] = 'Ascendant';
+	$Translation['descending'] = 'Descendant';
+	$Translation['then by'] = 'Puis par';
 
 	// membership_profile
 	$Translation['Legend'] = 'Legend';

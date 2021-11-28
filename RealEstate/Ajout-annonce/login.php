@@ -33,7 +33,6 @@
 					<div class="form-group">
 						<label class="control-label" for="password"><?php echo $Translation['password']; ?></label>
 						<input class="form-control" name="password" id="password" type="password" placeholder="<?php echo $Translation['password']; ?>" required>
-						<span class="help-block"><?php echo $Translation['forgot password']; ?></span>
 					</div>
 					<div class="checkbox">
 						<label class="control-label" for="rememberMe">

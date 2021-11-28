@@ -24,25 +24,25 @@
 	// datalist.php
 	$Translation['quick search'] = "Cherchez";
 	$Translation['records x to y of z'] = "Records <FirstRecord> to <LastRecord> of <RecordCount>";
-	$Translation['filters'] = "Filters";
+	$Translation['filters'] = "Filtres";
 	$Translation['filter'] = "Filter";
-	$Translation['filtered field'] = "Filtered field";
-	$Translation['comparison operator'] = "Comparison Operator";
-	$Translation['comparison value'] = "Comparison Value";
-	$Translation['and'] = "And";
-	$Translation['or'] = "Or";
-	$Translation['equal to'] = "Equal to";
-	$Translation['not equal to'] = "Not equal to";
-	$Translation['greater than'] = "Greater than";
-	$Translation['greater than or equal to'] = "Greater than or equal to";
-	$Translation['less than'] = "Less than";
-	$Translation['less than or equal to'] = "Less than or equal to";
-	$Translation['like'] = "Like";
-	$Translation['not like'] = "Not like";
-	$Translation['is empty'] = "Is empty";
-	$Translation['is not empty'] = "Is not empty";
-	$Translation['apply filters'] = "Apply filters";
-	$Translation['save filters'] = "Save and apply filters";
+	$Translation['filtered field'] = "Champ filtré";
+	$Translation['comparison operator'] = "Operateur de comparaison";
+	$Translation['comparison value'] = "Valeur de comparaison";
+	$Translation['and'] = "Et";
+	$Translation['or'] = "Ou";
+	$Translation['equal to'] = "Egal à";
+	$Translation['not equal to'] = "Non egal à";
+	$Translation['greater than'] = "Supérieur à";
+	$Translation['greater than or equal to'] = "Supérieur ou egal à";
+	$Translation['less than'] = "Inférieur à";
+	$Translation['less than or equal to'] = "Inférieur ou egal à";
+	$Translation['like'] = "egal";
+	$Translation['not like'] = "different";
+	$Translation['is empty'] = "vide";
+	$Translation['is not empty'] = "non vide";
+	$Translation['apply filters'] = "Appliquer filters";
+	$Translation['save filters'] = "Enregistrer et appliquer filters";
 	$Translation['saved filters title'] = "HTML Code For The Applied Filters";
 	$Translation['saved filters instructions'] = "Copy the code below and paste it to an HTML file to save the filter you just defined so that you can return to it at any time in the future without having to redefine it. You can save this HTML code on your computer or on any server and access this prefiltered table view through it.";
 	$Translation['hide code'] = "Hide this code";
@@ -50,7 +50,7 @@
 	$Translation['save as csv'] = "Download as csv file (comma-separated values)";
 	$Translation['edit filters'] = "Edit filters";
 	$Translation['clear filters'] = "Clear filters";
-	$Translation['order by'] = 'Order by';
+	$Translation['order by'] = 'Filter par';
 	$Translation['go to page'] = 'Go to page:';
 	$Translation['none'] = 'None';
 	$Translation['Select all records'] = 'Select all records';
@@ -88,7 +88,7 @@
 	$Translation['Deselect'] = 'Annuler';
 	$Translation['Add New'] = 'Ajouter Nouveau';
 	$Translation['Delete'] = 'Supprimer';
-	$Translation['Cancel'] = 'Cancel';
+	$Translation['Cancel'] = 'Annuler';
 	$Translation['Print Preview'] = 'Imprimer';
 	$Translation['Save Changes'] = 'Enregister les changements';
 	$Translation['CSV'] = 'Téléchargez  CSV';
@@ -157,7 +157,7 @@
 	$Translation['forgot password']="Mot de passe oublié? <a href=membership_passwordReset.php>Cliquez ici</a>";
 	$Translation['browse as guest']="<a href=index.php>Continue browsing as a guest</a>";
 	$Translation['no table access']="You don't have enough permissions to access any page here. Please sign in first.";
-	$Translation['signup']="Enregistrer";
+	$Translation['signup']="Inscrivez vous";
 
 	// checkMemberID.php
 	$Translation['user already exists']="Username '<MemberID>' already exists. Try another username.";
@@ -180,11 +180,11 @@
 	$Translation['registered? sign in']="Already registered? <a href=index.php?signIn=1>Sign in here</a>.";
 	$Translation['sign up disabled']="Sorry! Sign-up is temporarily disabled by admin. Try again later.";
 	$Translation['check availability']="Check if this username is available";
-	$Translation['confirm password']="Confirm Password";
-	$Translation['email']="Email Address";
+	$Translation['confirm password']="Confirmer Password";
+	$Translation['email']="Addresse Mail";
 	$Translation['group']="Group";
 	$Translation['groups *']="Si vous choisissez de vous inscrire à un groupe marqué d’un astérisque (*), vous ne pourrez pas vous connecter avant que l’administrateur ne vous approuve. Vous recevrez un courriel lorsque vous serez approuvé.";
-	$Translation['sign up']="Enregistrer";
+	$Translation['sign up']="Inscrivez vous";
 
 	// membership_passwordReset.php
 	$Translation['password reset']="Password Reset Page";
@@ -194,43 +194,43 @@
 	$Translation['password reset ready']="An email with password reset instructions has been sent to your registered email address. Please follow the instructions in that email message.<br /><br />If you don't receive this email within 5 minutes, try resetting your password again, and make sure you enter a correct username or email address.";
 	$Translation['password reset invalid']="Invalid username or password. <a href=membership_passwordReset.php>Try again</a>, or go <a href=index.php>back to homepage</a>.";
 	$Translation['password change']="Password Change Page";
-	$Translation['new password']="New password";
+	$Translation['new password']="Nouveau password";
 	$Translation['password reset done']="Your password was changed successfully. You can <a href=index.php?signOut=1>log in with the new password here</a>.";
 
     $Translation['Loading ...']='Loading ...';
     $Translation['No records found']='No records found';
     $Translation['You can add children records after saving the main record first']='You can add child records after saving the main record first';
 
-    $Translation['ascending'] = 'Ascending';
-    $Translation['descending'] = 'Descending';
-    $Translation['then by'] = 'Then by';
+    $Translation['ascending'] = 'Ascendant';
+    $Translation['descending'] = 'Descendant';
+    $Translation['then by'] = 'Puis par';
 
 	// membership_profile
 	$Translation['Legend'] = 'Legend';
 	$Translation['Table'] = 'Table';
-	$Translation['Edit'] = 'Edit';
-	$Translation['View'] = 'View';
-	$Translation['Only your own records'] = 'Only your own records';
-	$Translation['All records owned by your group'] = 'All records owned by your group';
-	$Translation['All records'] = 'All records';
-	$Translation['Not allowed'] = 'Not allowed';
-	$Translation['Your info'] = 'Your info';
-	$Translation['Hello user'] = 'Hello %s!';
-	$Translation['Your access permissions'] = 'Your access permissions';
-	$Translation['Update profile'] = 'Update profile';
-	$Translation['Update password'] = 'Update password';
-	$Translation['Change your password'] = 'Change your password';
-	$Translation['Old password'] = 'Old Password';
-	$Translation['Password strength: weak'] = 'Password strength: weak';
-	$Translation['Password strength: good'] = 'Password strength: good';
-	$Translation['Password strength: strong'] = 'Password strength: strong';
+	$Translation['Edit'] = 'Modifier';
+	$Translation['View'] = 'Voir';
+	$Translation['Only your own records'] = 'Seulement vos enregistrements';
+	$Translation['All records owned by your group'] = 'Tous les enregistrements';
+	$Translation['All records'] = 'Tous les enregistrements';
+	$Translation['Not allowed'] = 'Non permis';
+	$Translation['Your info'] = 'Vos infos';
+	$Translation['Hello user'] = 'Bienvenue %s!';
+	$Translation['Your access permissions'] = 'Vos Permissions';
+	$Translation['Update profile'] = 'Enregitrer';
+	$Translation['Update password'] = 'Enregistrer';
+	$Translation['Change your password'] = 'Changer le password';
+	$Translation['Old password'] = 'Ancien Password';
+	$Translation['Password strength: weak'] = 'Password strength: Faible';
+	$Translation['Password strength: good'] = 'Password strength: Bien';
+	$Translation['Password strength: strong'] = 'Password strength: Fort';
 	$Translation['Wrong password'] = 'Wrong password';
-	$Translation['Your profile was updated successfully'] = 'Your profile was updated successfully';
-	$Translation['Your password was changed successfully'] = 'Your password was changed successfully';
-	$Translation['Your IP address'] = 'Your IP address';
+	$Translation['Your profile was updated successfully'] = 'Profil Bien mis à jour';
+	$Translation['Your password was changed successfully'] = 'Password bien modifié';
+	$Translation['Your IP address'] = 'Adresse Ip';
 	
 	/* Added in AppGini 4.90 */
-	$Translation['Records to display'] = 'Records to display';
+	$Translation['Records to display'] = 'Enregistrements à montrer';
 	
 	/* Added in AppGini 5.10 */
 	$Translation['Setup Data'] = 'Setup Data';

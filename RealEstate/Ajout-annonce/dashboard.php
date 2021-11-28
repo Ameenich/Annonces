@@ -115,10 +115,8 @@
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
-            <!-- /.navbar-static-side -->
-            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/leLObtEqZ3YEHN47Bm" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/BKME3SVwhpjiz00KeK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-    <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/H0OK0o53J0NARAJOQj" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            
+                <div style="height:600px;" ></div>
 
               </div>
         </nav>
